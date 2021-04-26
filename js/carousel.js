@@ -1,4 +1,4 @@
-const image = [
+const images = [
     "../img/logo1.png",
     "../img/logo2.png",
     "../img/logo3.png",

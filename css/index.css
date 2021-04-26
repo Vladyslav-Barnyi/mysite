@@ -23,6 +23,7 @@
   background: rgb(109, 13, 0); 
   padding: .7em 1.5em; 
   outline: none;
+  margin-left: 170px;
 }
 a.buttonOne:hover { background: rgb(80, 0, 90); } 
 a.buttonOne:active { background: rgb(75, 255, 135); }
@@ -49,4 +50,23 @@ a.buttonOne:active { background: rgb(75, 255, 135); }
     font-weight: 400;
     word-wrap: break-word;
     
+}
+
+@media screen {
+        
+    max-width: 600px;
+    display: flex;
+    margin-left: 320px;
+}
+.part{
+    
+}
+
+.photo{
+    display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-gap: 1rem;
+}
+.omg{
+    margin-right: 250px;
 }
