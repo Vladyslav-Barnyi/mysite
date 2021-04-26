@@ -1,1 +1,52 @@
+.logo{
+    display: flex;   
+    margin-left: 20px;  
+}
 
+.clock{
+    margin-right: 30 px;
+    
+}
+.menu {
+    
+    text-indent:3em;
+    font-size: 20px;    
+    word-spacing: 0.5em;
+    display: flex;
+    margin-left : 280px;
+    margin-bottom: 150px;
+}
+.buttonOne {
+  color: #fff; 
+  text-decoration: none; 
+  user-select: none; 
+  background: rgb(109, 13, 0); 
+  padding: .7em 1.5em; 
+  outline: none;
+}
+a.buttonOne:hover { background: rgb(80, 0, 90); } 
+a.buttonOne:active { background: rgb(75, 255, 135); }
+
+.part1 {
+    color: rgb(59, 25, 25);
+    background-image : url('../img/smbwhohelp.jfif') ;
+    display : block;  
+}
+
+
+
+
+.start{
+    display: flexbox;
+    margin-top: 100px;
+    position: relative;
+    min-width: 320px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    
+}
