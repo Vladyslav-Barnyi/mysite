@@ -18,7 +18,7 @@
     margin-bottom: 150px;
 }
 .products-carousel{
-    margin-left: 45%;
+    margin-left: 40%;
 }
 .buttonOne {
   color: #fff; 
@@ -28,6 +28,7 @@
   padding: .7em 1.5em; 
   outline: none;
   margin-left: 170px;
+  border-radius: 25%;
 }
 a.buttonOne:hover { background: rgb(80, 0, 90); } 
 a.buttonOne:active { background: rgb(75, 255, 135); }
@@ -63,7 +64,116 @@ a.buttonOne:active { background: rgb(75, 255, 135); }
 
 }
 
-.omg{
-    display: table-column-group;
+.alltext{
+    display: float;
+    margin-top: 200px;
+    margin-right: 200px;
+}
 
+
+.buttonTwo {
+    display: flex;
+     margin-left: 90%;
+    color: #fff; 
+    text-decoration: none; 
+    user-select: none; 
+    background: rgb(20, 5, 2); 
+    padding: .7em 1.5em; 
+    outline: none;
+    border-radius: 25%;
+  }
+  a.buttonTwo:hover { background: rgb(83, 56, 87); } 
+  a.buttonTwo:active { background: rgb(75, 255, 135); }
+
+.part3{
+        display: inline-block;
+        align-items: inline;
+        color: rgb(121, 11, 11);
+        border-radius: 1em;
+        padding: 1em;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        margin-right: 70%;
+       }
+
+.partx{
+    display: flex;
+}
+.textx{
+    background-color: tan;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    
+}
+.texty{
+    background-color: tan;
+    margin-bottom: 30px;
+}
+.moons{
+    display: flex;
+    padding-inline: 50px;
+    background-color: rgb(65, 77, 87);
+}
+.hard{
+    display: flex;
+}
+.hmm{
+    font-size: x-large;
+}
+ .price1{
+    margin-top: 50px;
+    margin-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border : 3px solid gray;
+    border-radius: 5px ;
+    font-size: large;
+    color: snow;
+    background-color: rgb(52, 0, 77);
+ }
+ .price2{
+    margin-top: 50px;
+    margin-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border : 3px solid gray;
+    border-radius: 5px ;
+    font-size: large;
+    color: snow;
+    background-color: rgb(52, 0, 77);
+}
+
+.buy{
+    color: #fff; 
+    text-decoration: none; 
+    user-select: none; 
+    background: rgb(109, 13, 0); 
+    padding: .7em 1.5em; 
+    outline: none;
+    margin-left: 50px;
+    border-radius: 25%;
+}
+.realbuy{
+    color: #fff; 
+    text-decoration: none; 
+    user-select: none; 
+    background: rgb(109, 13, 0); 
+    padding: .7em 1.5em; 
+    outline: none;
+    margin-left: 80px;
+    border-radius: 65%;
+}
+
+.alot{
+    display: flex;
+    padding-left: 130px;
+    padding-top: 40px;
+    align-items: center;
+    background-color: rgb(87, 24, 24);
+    margin-bottom: 40px;
 }
