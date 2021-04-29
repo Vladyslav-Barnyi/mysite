@@ -1,3 +1,4 @@
+
 .logo{
     display: flex;   
     margin-left: 20px;  
@@ -16,6 +17,9 @@
     margin-left : 280px;
     margin-bottom: 150px;
 }
+.products-carousel{
+    margin-left: 45%;
+}
 .buttonOne {
   color: #fff; 
   text-decoration: none; 
@@ -30,7 +34,7 @@ a.buttonOne:active { background: rgb(75, 255, 135); }
 
 .part1 {
     color: rgb(59, 25, 25);
-    background-image : url('../img/smbwhohelp.jfif') ;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('../img/smbwhohelp.jfif') ;
     display : block;  
 }
 
@@ -52,21 +56,14 @@ a.buttonOne:active { background: rgb(75, 255, 135); }
     
 }
 
-@media screen {
-        
-    max-width: 600px;
+
+.part2{
     display: flex;
-    margin-left: 320px;
-}
-.part{
-    
+    margin-left: 15%;
+
 }
 
-.photo{
-    display: grid;
-  grid-template-columns: 50vw 50vw;
-  grid-gap: 1rem;
-}
 .omg{
-    margin-right: 250px;
+    display: table-column-group;
+
 }
