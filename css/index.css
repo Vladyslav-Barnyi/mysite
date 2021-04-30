@@ -87,8 +87,10 @@ a.buttonOne:active { background: rgb(75, 255, 135); }
 .part3{
     padding-top: 20%;
     padding-bottom: 20%;
-    padding-left: 30%;
-    background: url('../img/part33.jpg');
+    padding-left: 20%;
+    background:  url('../img/part33.jpg');
+    opacity: 0,7;
+    color: aquamarine;
 }
 
 .partx{
@@ -173,10 +175,39 @@ a.buttonOne:active { background: rgb(75, 255, 135); }
 }
 .oncemore{
     display: flex;
-    padding-left: 15%;
-    padding-right: 15%;
+    background-color: bisque;
+ 
     padding-top: 5%;
 }
 .numb{
     display: flex;
+    padding-right: 15%;
 }
+
+.beforeagain{
+    margin-left: 30%;
+    align-items: center;
+   
+}
+.last{
+    background-color:rgb(199, 111, 111);
+    display: flex;
+}
+.last2{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.buttonthree{
+    display: flex;
+    margin-left: 45%;
+    color: #fff; 
+    text-decoration: none; 
+    user-select: none; 
+    background: rgb(20, 5, 2); 
+    padding: .7em 1.5em; 
+    outline: none;
+    border-radius: 25%;
+}
+    a.buttonthree:hover { background: rgb(83, 56, 87); } 
+    a.buttonthree:active { background: rgb(75, 255, 135); }
+
